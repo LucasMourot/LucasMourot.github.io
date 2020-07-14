@@ -1,0 +1,7 @@
+@InProceedings{8069070,
+	author=		{B. {Chapuis} and B. {Garbinato} and L. {Mourot}},
+	booktitle=	{2017 IEEE 36th Symposium on Reliable Distributed Systems (SRDS)},
+	title=		{A Horizontally Scalable and Reliable Architecture for Location-Based Publish-Subscribe},
+	year=		{2017},
+	pages=		{74-83},
+}

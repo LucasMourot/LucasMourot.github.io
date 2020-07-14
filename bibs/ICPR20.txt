@@ -1,0 +1,15 @@
+@article{2020arXiv200701151M,
+	author=			{{Mourot}, Lucas and {Le Clerc}, Fran{\c{c}}ois and {Th{\'e}bault}, C{\'e}dric and {Hellier}, Pierre},
+	title=			{JUMPS: Joints Upsampling Method for Pose Sequences},
+	journal=		{arXiv e-prints},
+	keywords=		{Computer Science - Computer Vision and Pattern Recognition},
+	year=			2020,
+	month=			jul,
+	eid=			{arXiv:2007.01151},
+	pages=			{arXiv:2007.01151},
+	archivePrefix=	{arXiv},
+	eprint=			{2007.01151},
+	primaryClass=	{cs.CV},
+	adsurl=			{https://ui.adsabs.harvard.edu/abs/2020arXiv200701151M},
+	adsnote=		{Provided by the SAO/NASA Astrophysics Data System}
+}

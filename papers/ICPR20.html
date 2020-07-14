@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+		<title>JUMPS: Joints Upsampling Method for Pose Sequences</title>
+		<!-- <link rel="stylesheet" type="text/css" href="./style.css"> -->
+		<link rel="stylesheet" type="text/css" href="../style.css">
+	</head>
+	<body>
+		
+	<section><center>
+		<a href="https://lucasmourot.github.io/"><img align="left" width="25" src="../images/left_arrow.png"></a>
+		<a href="https://lucasmourot.github.io/"><p style="text-align:left;">&nbsp;&nbsp;Back</p></a>	
+	</center></section>
+	
+	<header><h1>JUMPS: Joints Upsampling Method for Pose Sequences</h1></header>
+	
+	<section>
+
+		<center>
+			<i>Lucas Mourot, François Le Clerc, Cédric Thébault, Pierre Hellier</i>
+			<br>
+			<b>To appear in the Proceedings of the 25th International Conference on Pattern Recognition (ICPR), 2020</b>
+			<br>
+			<br><br>
+		</center>
+		<center><img width="750" alt="No figure" src="../images/ICPR20.jpg"><br></center>
+
+		<h1>Abstract</h1>
+		<p>
+		Human Pose Estimation is a low-level task useful for surveillance, human action recognition, and scene understanding at large. It also offers promising perspectives for the animation of synthetic characters. For all these applications, and especially the latter, estimating the positions of many joints is desirable for improved performance and realism. To this purpose, we propose a novel method called JUMPS for increasing the number of joints in 2D pose estimates and recovering occluded or missing joints. We believe this is the first attempt to address the issue. We build on a deep generative model that combines a GAN and an encoder. The GAN learns the distribution of high-resolution human pose sequences, the encoder maps the input low-resolution sequences to its latent space. Inpainting is obtained by computing the latent representation whose decoding by the GAN generator optimally matches the joints locations at the input. Post-processing a 2D pose sequence using our method provides a richer representation of the character motion. We show experimentally that the localization accuracy of the additional joints is on average on par with the original pose estimates.
+		</p>
+
+		<!-- ****************************************************************** -->
+		<h1>Downloads</h1>
+		<p></p><center>
+			<a href="../pdfs/ICPR20.pdf"/><img width="50" src="../images/pdf.png"/></a>
+			<!-- <a href="../vids/ICPR20.mp4"/><img width="50" src="../images/video.png"/></a> -->
+			<a href="../bibs/ICPR20.txt"/><img width="50" src="../images/bibtex.png"/></a>
+		</center><p></p>
+
+		<!-- ****************************************************************** -->
+		<h1>Bibtex</h1>
+		<p></p>
+		<div class="bibtex"><pre>
+@article{2020arXiv200701151M,
+	author=			{Mourot, Lucas and {Le Clerc}, Fran{\c{c}}ois and Th{\'e}bault, C{\'e}dric and Hellier, Pierre},
+	title=			{JUMPS: Joints Upsampling Method for Pose Sequences},
+	journal=		{arXiv e-prints},
+	keywords=		{Computer Science - Computer Vision and Pattern Recognition},
+	year=			2020,
+	month=			jul,
+	eid=			{arXiv:2007.01151},
+	pages=			{arXiv:2007.01151},
+	archivePrefix=		{arXiv},
+	eprint=			{2007.01151},
+	primaryClass=		{cs.CV},
+	adsurl=			{https://ui.adsabs.harvard.edu/abs/2020arXiv200701151M},
+	adsnote=		{Provided by the SAO/NASA Astrophysics Data System}
+}
+		</pre></div>
+
+		<center>
+		<a href="https://lucasmourot.github.io/"><img align="left" width="25" src="../images/left_arrow.png"></a>
+		<a href="https://lucasmourot.github.io/"><p style="text-align:left;">&nbsp;&nbsp;Back</p></a>
+		</center>
+
+	</section></body>
+</html>

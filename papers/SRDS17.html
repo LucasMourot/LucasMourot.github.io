@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+		<title>A Horizontally Scalable and Reliable Architecture for Location-based Publish-Subscribe</title>
+		<!-- <link rel="stylesheet" type="text/css" href="./style.css"> -->
+		<link rel="stylesheet" type="text/css" href="../style.css">
+	</head>
+	<body>
+		
+	<section><center>
+		<a href="https://lucasmourot.github.io/"><img align="left" width="25" src="../images/left_arrow.png"></a>
+		<a href="https://lucasmourot.github.io/"><p style="text-align:left;">&nbsp;&nbsp;Back</p></a>	
+	</center></section>
+	
+	<header><h1>A Horizontally Scalable and Reliable Architecture for Location-based Publish-Subscribe</h1></header>
+	
+	<section>
+
+		<center>
+			<i>Bertil Chapuis, Benoît Garbinato and Lucas Mourot</i>
+			<br>
+			<b>IEEE 36th Symposium on Reliable Distributed Systems (SRDS), 2017</b>
+			<br>
+			<br><br>
+		</center>
+		<center><img width="750" alt="No figure" src="../images/SRDS17.jpg"><br></center>
+
+		<h1>Abstract</h1>
+		<p>
+		With billions of connected users and objects, location-based services face a massive scalability challenge. We propose a horizontally-scalable and reliable location-based publish/subscribe architecture that can be deployed on a cluster made of commodity hardware. As many modern location-based publish/subscribe systems, our architecture supports moving publishers, as well as moving subscribers. When a publication moves in the range of a subscription, the owner of this subscription is instantly notified via a server-initiated event, usually in the form of a push notification. To achieve this, most existing solutions rely on classic indexing data structures, such as R-trees, and they struggle at scaling beyond the scope of a single computing unit. Our architecture introduces a multi-step routing mechanism that, to achieve horizontal scalability, efficiently combines range partitioning, consistent hashing and a min-wise hashing agreement. In case of node failure, an active replication strategy ensures a reliable delivery of publication throughout the multistep routing mechanism. From an algorithmic perspective, we show that the number of messages required to compute a match is optimal in the execution model we consider and that the number of routing steps is constant. Using experimental results, we show that our method achieves high throughput, low latency and scales horizontally. For example, with a cluster made of 200 nodes, our architecture can process up to 190’000 location updates per second for a fleet of nearly 1’900’000 moving entities, producing more than 130’000 matches per second.
+		</p>
+
+		<!-- ****************************************************************** -->
+		<h1>Downloads</h1>
+		<p></p><center>
+			<a href="../pdfs/SRDS17.pdf"/><img width="50" src="../images/pdf.png"/></a>
+			<!-- <a href="../vids/SRDS17.mp4"/><img width="50" src="../images/video.png"/></a> -->
+			<a href="../bibs/SRDS17.txt"/><img width="50" src="../images/bibtex.png"/></a>
+		</center><p></p>
+
+		<!-- ****************************************************************** -->
+		<h1>Bibtex</h1>
+		<p></p>
+		<div class="bibtex"><pre>
+@InProceedings{8069070,
+	author=		{B. {Chapuis} and B. {Garbinato} and L. {Mourot}},
+	booktitle=	{2017 IEEE 36th Symposium on Reliable Distributed Systems (SRDS)},
+	title=		{A Horizontally Scalable and Reliable Architecture for Location-Based Publish-Subscribe},
+	year=		{2017},
+	pages=		{74-83},
+}
+		</pre></div>
+
+		<center>
+		<a href="https://lucasmourot.github.io/"><img align="left" width="25" src="../images/left_arrow.png"></a>
+		<a href="https://lucasmourot.github.io/"><p style="text-align:left;">&nbsp;&nbsp;Back</p></a>
+		</center>
+
+	</section></body>
+</html>
