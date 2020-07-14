@@ -69,14 +69,12 @@ section h1 { /* section titles */
   padding: 5px 20px; 
 }
 
-
-
 .results .thumb {
 	position: relative;
 	float: left;
 	padding: 0px;
-	margin: 0px;
-	width: 161px; /* publications text horizontal position */
+	margin: 0px 30px;
+	width: 131px;
 	height: 88px;
 }
 .list .ref {
@@ -86,7 +84,7 @@ section h1 { /* section titles */
 }
 .results hr {
 	width: 60%;
-	margin: 12px 160px;
+	margin: 12px 190px;
 	padding: 0px;
 	height: 5px;
 	border: 0px;
