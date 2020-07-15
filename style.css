@@ -40,7 +40,7 @@ nav ul li {
 }
 nav > ul > li > a {
   color: rgb(0, 84, 166); /* section links font color */
-  padding: 0 50px;
+  padding: 0 30px;
 }
 
 section
@@ -52,7 +52,7 @@ section
   text-align: justify;
   margin-left: auto; 
   margin-right: auto; 
-  width:60%;
+  width:80%;
   margin-color: #a1bcd4;
   padding: 10px;
 }
@@ -72,20 +72,19 @@ section h1 { /* section titles */
 .results .thumb {
 	position: relative;
 	float: left;
-	padding: 0px;
-	margin: 0px 30px;
+	padding: 0px 0px;
+	margin: 15px 15px;
 	width: 131px;
 	height: 88px;
 }
 .list .ref {
-	margin-left: 130px;
+	margin-left: 190px;
 	position: relative;
 	text-align:left;
 }
 .results hr {
 	width: 60%;
 	margin: 12px 190px;
-	padding: 0px;
 	height: 5px;
 	border: 0px;
 	background: rgb(0, 0, 0); /* publications horizontal bar color */
