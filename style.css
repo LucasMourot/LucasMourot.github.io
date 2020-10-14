@@ -82,6 +82,15 @@ section h1 { /* section titles */
 	position: relative;
 	text-align:left;
 }
+.results .icon {
+	position: relative;
+	float: right;
+	padding: 0px 0px;
+	margin: 2px 2px;
+	width: 50px;
+	height: 88px;
+}
+
 .results hr {
 	width: 60%;
 	margin: 12px 190px;
