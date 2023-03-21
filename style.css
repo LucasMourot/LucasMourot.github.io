@@ -92,22 +92,21 @@ section h1 { /* section titles */
 }
 
 .results hr {
-	width: 63%;
-	margin: 12px 190px;
-	height: 5px;
+	width: 100%;
+	margin: 10px 0px;
+	height: 1px;
 	border: 0px;
 	background: rgb(0, 0, 0); /* publications horizontal bar color */
 	clear: both;
 }
 .title {
-	font-weight : bold ; 
+	font-weight: bold; 
 }
 .authors {
 	margin: 3px 0px;
 }
 .conf {
 }
-
 .bibtex {
-	font-size : 10pt;
+	font-size: 10pt;
 }
